@@ -5,9 +5,9 @@ package GroovyRestfulClient1
  */
 class YahooWeatherInputData {
 
-    String location
-    String endPoint
-    String paramValues
+    def location
+    def endPoint
+    def paramValues
 
     String getLocation() {
         return location
@@ -43,7 +43,7 @@ class YahooWeatherInputData {
     }
 
     private static String requestUrlBuilder(String endPoint, String requestParams){
-        String url = "$endPoint$requestParams"
+        def url = "$endPoint$requestParams"
         return url
     }
 
