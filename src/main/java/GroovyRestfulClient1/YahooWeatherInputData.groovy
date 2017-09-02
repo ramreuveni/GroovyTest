@@ -58,4 +58,5 @@ class YahooWeatherInputData {
                 ", url='" + requestUrlBuilder(endPoint,requestParams) + '\'' +
                 '}'
     }
+
 }
